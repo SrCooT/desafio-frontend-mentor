@@ -1,0 +1,48 @@
+@media(max-width: 375px){
+   
+    main{
+        max-width: 375px;
+        background: url('../images/bg-mobile.svg') no-repeat ;
+        background-size: cover;
+
+    }
+    .corpo img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cabecalho{
+        
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .corpo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .corpo .text  h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .corpo .text p{
+        text-align: center;
+     }
+    .corpo .text .register{
+        align-self: center;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 15px;
+        
+    }
+}
